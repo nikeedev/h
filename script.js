@@ -1,5 +1,6 @@
 window.onload = () => {
     audio.play();
+    search_input.focus();
 }
 
 search.onsubmit = () => {
