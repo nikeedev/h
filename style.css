@@ -7,7 +7,7 @@
 
 html {
     background-color: #c5def5;
-    color: #3A5064;
+    color: #283745;
 
     font-family: 'jbfont';
 
@@ -20,10 +20,11 @@ input#search_input {
     border-radius: 6.5px;
 }
 
-#ddg, #goog, #searxng {
-    color: #4f6981;
+button {
+    background:none;
+    border:none;
 }
 
-.active {
-    color: #3A5064;
+#ddg, #goog, #searxng {
+    color: #4f6981;
 }

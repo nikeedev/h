@@ -13,10 +13,10 @@ window.onload = () => {
 
 const changeSE = (SE) => {
     document.getElementById(search_engine).style.textDecoration = "none";
-    document.getElementById(search_engine).className = "";
+    document.getElementById(search_engine).style.color = "#4f6981";
     search_engine = SE;
     document.getElementById(SE).style.textDecoration = "underline";
-    document.getElementById(SE).className = "activeSE";
+    document.getElementById(SE).style.color = "#283745";
 }
 
 search.onsubmit = () => {
