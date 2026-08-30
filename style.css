@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'jbfont';
+    src: url('font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: #c5def5;
+    color: #3A5064;
+
+    font-family: 'jbfont';
+
+}
