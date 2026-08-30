@@ -19,3 +19,8 @@ input#search_input {
     border: #283745 2px solid;
     border-radius: 6.5px;
 }
+
+a:any-link {
+    color: #3A5064;
+}
+
