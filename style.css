@@ -12,3 +12,10 @@ html {
     font-family: 'jbfont';
 
 }
+
+input#search_input {
+    width: 45vw;
+    background-color: #c5def5;
+    border: #283745;
+
+}
