@@ -27,7 +27,7 @@ search.onsubmit = () => {
             window.location.href = "https://duckduckgo.com/?q=" + encodeURIComponent(search_input.value)
             break;
         case "goog":
-            window.location.href = "https://google.com/?q=" + encodeURIComponent(search_input.value)
+            window.location.href = "https://google.com/search?q=" + encodeURIComponent(search_input.value)
             break;
         case "searxng":
             window.location.href = "https://s.stio.studio/search?q=" + encodeURIComponent(search_input.value)
