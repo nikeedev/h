@@ -12,9 +12,11 @@ window.onload = () => {
 }
 
 const changeSE = (SE) => {
-    document.getElementById(search_engine).style.text_decoration = "none";
+    document.getElementById(search_engine).style.textDecoration = "none";
+    document.getElementById(search_engine).className = "";
     search_engine = SE;
-    document.getElementById(SE).style.text_decoration = "underline";
+    document.getElementById(SE).style.textDecoration = "underline";
+    document.getElementById(SE).className = "activeSE";
 }
 
 search.onsubmit = () => {

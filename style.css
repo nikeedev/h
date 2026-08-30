@@ -20,7 +20,10 @@ input#search_input {
     border-radius: 6.5px;
 }
 
-a:any-link {
-    color: #3A5064;
+#ddg, #goog, #searxng {
+    color: #4f6981;
 }
 
+.active {
+    color: #3A5064;
+}
